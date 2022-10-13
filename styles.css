@@ -1,0 +1,17 @@
+body{
+    background-image: url("lib7.jpg");
+}
+h6 {
+    display: flex;
+    flex-direction: row;
+    color:lightslategrey;
+    font-size: 15px;
+}
+  
+h6:before,
+h6:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid lightslategrey;
+    margin:auto;
+}

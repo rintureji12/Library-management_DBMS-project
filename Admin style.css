@@ -1,0 +1,148 @@
+body{
+    background-image: url("lib7.jpg");
+    
+}
+
+/*Heading
+h2.hd
+{
+    font-family: Algerian;
+    font-size: 60px;
+    color: #fdfdfd;
+    padding: 0.1px;
+}*/
+
+/*Navigation bar*/
+ul.nav
+{
+  list-style-type:none;
+  margin: 0;
+  padding: 1px 5px;
+  background-color: #251800 ;
+  overflow: hidden;
+}
+
+li.nav
+{	
+	float: right;
+    
+}
+
+li.nav a
+{
+  display: block;
+  color:#251800;
+  text-align: center;
+  padding: 13px 25px;
+   text-decoration: none;
+}
+li.nav a:hover
+{
+	background-color: #804d00;
+}
+li.sl{
+	float:right;
+
+}
+li.sl a{
+	display: block;
+	color:white;
+	text-align: center;
+	padding: 13px 25px;
+	 text-decoration: none;
+  }
+li.sl a:hover
+{
+	color: #808b96;
+}
+
+div.row
+{
+    color:#251800; 
+}
+
+#nvbr
+{
+    background-color:#382400;
+    position:fixed;
+    z-index: 1;
+    float: right;
+}
+li.nv a
+{
+  display: block;
+  color:#251800;
+  text-align: center;
+  padding: 13px 25px;
+   text-decoration: none;
+}
+
+
+/*
+form{
+    display: block;
+    position: center;
+	background-color: #553700;
+   width: 1350px;
+   height: 590px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   border:5 solid ;
+   opacity: 0.9;
+
+   }
+table{
+    display: block;
+    position: center;
+	background-color: #553700;
+   width:1350px;
+   height: 590px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   border:5 solid ; 
+   opacity: 0.9;
+   }
+   */
+.container
+{
+    display: block;
+    position: center;
+	background-color: #553700;
+    width: 1350px;
+    height: 590px;
+    text-align: center;
+    margin-left: 5;
+    margin-right: auto;
+    border:5 solid ;
+    opacity: 0.9;
+   
+}
+
+.btn
+{
+    font-family: Castellar;
+    border: none;
+  background-color: #1a150c;
+  padding: 30px 40px;
+  font-size: 30px;
+  color: #eee;
+  cursor: pointer;
+  display: inline-block;
+
+
+}
+
+.btn:hover 
+{
+    background: rgb(155, 152, 151)
+}
+
+.vertical-center {
+    margin: 2px;;
+    position: right;
+    top: 50%;
+  
+    
+  }
